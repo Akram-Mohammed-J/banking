@@ -1,0 +1,42 @@
+.credit-container {
+  position: absolute;
+  color: white;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  top: -80px;
+  left: 125px;
+  width: 346px;
+  height: 200px;
+  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+  background-color: #572479;
+  border-radius: 10px;
+}
+.credit-container > div {
+  margin-bottom: 1rem;
+}
+.cardtype {
+  display: flex;
+  justify-content: flex-end;
+}
+.personal-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-no-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.subtitle {
+  font-size: 11px;
+  line-height: 1.5rem;
+}
+.content {
+  font-size: 14px;
+}
+.card-number {
+  text-align: center;
+  letter-spacing: 7px;
+}
